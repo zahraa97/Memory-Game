@@ -1,0 +1,30 @@
+body{
+
+	background-color: rgb(0, 0, 0);
+}
+
+h1, h2{
+	text-align: center;
+	background-color: rgb(255,84,200);
+	color: rgb(0, 0, 0);
+	width: 80%;
+	margin: auto;
+	padding: 10px; 
+}
+
+h2{
+	width: 60%;
+	font-size: 100%;
+}
+
+img{
+	display: block;
+    margin: auto;
+    height: 350px;
+    padding: 50px;
+}
+
+p{
+	text-align: center;
+	color: rgb(255,84,200);
+}
