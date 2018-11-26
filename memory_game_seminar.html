@@ -31,7 +31,7 @@ div#memory_board > div{
 </style>
 <script>
 	//this will create the letters of the board
-var memory_array = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
+var memory_array = ['1','1','2','2','3','3','4','4','5','5','6','6','7','7','8','8','9','9','10','11','12','12','13','13','14','14','15','15'];
 var memory_values = [];
 var memory_tile_ids = [];
 var tiles_flipped = 0;
@@ -87,7 +87,7 @@ function memoryFlipTile(tile,val){
 				    memory_values = [];
             	    memory_tile_ids = [];
 				}
-				setTimeout(flip2Back, 700);
+				setTimeout(flip2Back, 800);
 			}
 		}
 	}
@@ -96,7 +96,7 @@ function memoryFlipTile(tile,val){
 	<h1>Welcome to the Memory Game!</h1>
 </head>
 	<p> How to play:
-	Click on a tile to see reveal a letter. Match a pair of letters to to keep the tiles unhidden. Match all letters to win the game. </p>
+	Click on a tile to see reveal a number. Match a pair of numbers to to keep the tiles unhidden. Match all numbers to win the game. </p>
 <body>
 	
 <div id="memory_board"></div>
